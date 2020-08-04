@@ -1,0 +1,35 @@
+import java.util.math;
+
+public class simulator{
+    private int x;
+    private int y;
+    private int rot;
+
+    public static void getX(){
+        return x;
+    }
+
+    public static void getRotation(){
+        return rot;
+    }
+
+    public static void getY(){
+        return y;
+    }
+
+    //take info from motor control
+    public static void update(){
+        int left = motorControl.leftMotorDegrees()
+        int right = motorControl.rightMotorDegrees() 
+
+        int forwards = (left + right)/2;
+        int rotation = (right - left)/20;
+
+        int yChange = forwards * math.sin(rot);
+        int xChange = forwards * math.cos(rot);
+
+        x += xChange;
+        y += yChange;
+        rot += rotation;
+    }
+}
