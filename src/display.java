@@ -34,8 +34,4 @@ public class graphics extends JPanel {
 
         displayRobotPositions
     }
-
-    public static void main(String[] args) {
-        updateRobotGraphics();
-    }
 }
