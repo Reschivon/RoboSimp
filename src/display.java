@@ -31,7 +31,5 @@ public class graphics extends JPanel {
         rotation = simulator.getRotation();
 
         blitPose();
-
-        displayRobotPositions
     }
 }
