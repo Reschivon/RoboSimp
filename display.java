@@ -4,12 +4,12 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 
 public class graphics extends JPanel {
-    int x = simulator.getX();
-    int y = simulator.getY();
-    int rotation = simulator.getRotation();
+    // initialize class variables
+    int x = null;
+    int y = null;
+    int rotation = null;
 
-
-    public void paint(Graphics g) {
+    public void blitPose(Graphics g) {
         g.drawString("Robot x = " + x.toString(), 10, 10);
         g.drawString("Robot y = " + y.toString(), 10, 50);
         g.drawString("Robot rotation = " + rotation.toString(), 10, 100);
@@ -24,7 +24,18 @@ public class graphics extends JPanel {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setResizable(false);
     }
+
+    public void updateRobotGraphics(){
+        x = simulator.getX();
+        y = simulator.getY();
+        rotation = simulator.getRotation();
+
+        blitPose();
+
+        displayRobotPositions
+    }
+
     public static void main(String[] args) {
-        displayRobotPositions();
+        updateRobotGraphics();
     }
 }
