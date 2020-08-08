@@ -5,9 +5,9 @@ import javax.swing.JPanel;
 
 public class graphics extends JPanel {
     // initialize class variables
-    int x = null;
-    int y = null;
-    int rotation = null;
+    int x;
+    int y;
+    int rotation;
 
     public void blitPose(Graphics g) {
         g.drawString("Robot x = " + x.toString(), 10, 10);
@@ -16,7 +16,7 @@ public class graphics extends JPanel {
 
     }
 
-    public static displayRobotPositions() {
+    public void displayRobotPositions() {
         JFrame frame = new JFrame("Robot Simulator");
         frame.getContentPane().add(new graphics());
         frame.setSize(300, 300);
@@ -33,9 +33,5 @@ public class graphics extends JPanel {
         blitPose();
 
         displayRobotPositions
-    }
-
-    public static void main(String[] args) {
-        updateRobotGraphics();
     }
 }
