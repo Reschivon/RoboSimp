@@ -1,7 +1,7 @@
 // for getting the destination from the destination asker
 public static void setDestination(x,y){
-    x = return (int) x;
-    y = return (int) y;
+    x = return int x;
+    y = return int y;
 }
 
 // for going forward or backward
