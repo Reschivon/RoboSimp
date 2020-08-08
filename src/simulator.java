@@ -22,8 +22,8 @@ public class simulator{
         int left = motorControl.leftMotorDegrees();
         int right = motorControl.rightMotorDegrees();
 
-        double forwards = (left + right)/2;
-        double rotation = (right - left)/20;
+        double forwards = (left + right)/2.0;
+        double rotation = (right - left)/2.0;
 
         double yChange = forwards * Math.sin(rot);
         double xChange = forwards * Math.cos(rot);

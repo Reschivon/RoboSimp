@@ -1,142 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="22617a6e-5604-4b87-b74d-6282a50ce575" name="Default Changelist" comment="" />
+    <list default="true" id="5dc6bb11-b66a-43ca-9a76-aded16966723" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/RoboSimp.iml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-      </list>
-    </option>
+  <component name="ProjectId" id="1fnjDGzCbMHhpjLTcpNWajv1sjF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectId" id="1fneXSNJSQMVAhsSqU7KUX0d7d5" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="22617a6e-5604-4b87-b74d-6282a50ce575" name="Default Changelist" comment="" />
-      <created>1596854658762</created>
+      <changelist id="5dc6bb11-b66a-43ca-9a76-aded16966723" name="Default Changelist" comment="" />
+      <created>1596860631855</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1596854658762</updated>
+      <updated>1596860631855</updated>
     </task>
-    <task id="LOCAL-00001" summary="Updated Motor Control &#10;now using the bot's current position to decide which motors to turn (still does not have access to the destination coords)">
-      <created>1596858705721</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1596858705721</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated Motor Control &#10;now using the bot's current position to decide which motors to turn (still does not have access to the destination coords)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Motor Control &#10;now using the bot's current position to decide which motors to turn (still does not have access to the destination coords)" />
+    <MESSAGE value="config" />
+    <option name="LAST_COMMIT_MESSAGE" value="config" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="101" y="64" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596858939535">
+    <state x="147" y="122" key="FileChooserDialogImpl" timestamp="1596860874213">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="101" y="64" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1596858939535" />
-    <state x="376" y="193" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1596858904806">
+    <state x="147" y="122" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596860874213" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1596861247730">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="376" y="193" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1596858904806" />
-    <state x="618" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1596858737591">
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1596861247730" />
+    <state x="507" y="200" key="git4idea.merge.GitPullDialog" timestamp="1596860774686">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="618" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1596858737591" />
-    <state x="424" y="7" key="CommitChangelistDialog2" timestamp="1596858701603">
+    <state x="507" y="200" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1596860774686" />
+    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup" timestamp="1596861212700">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1596858701603" />
-    <state x="277" y="55" key="SettingsEditor" timestamp="1596858373962">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1596858373962" />
-    <state x="500" y="204" key="git4idea.merge.GitPullDialog" timestamp="1596858948953">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="500" y="204" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1596858948953" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1596858946120">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1596858946120" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>12</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1596861212700" />
   </component>
 </project>
