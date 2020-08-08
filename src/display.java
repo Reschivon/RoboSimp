@@ -8,7 +8,6 @@ public class graphics extends JPanel {
     int y = simulator.getY();
     int rotation = simulator.getRotation();
 
-
     public void paint(Graphics g) {
         g.drawString("Robot x = " + x.toString(), 10, 10);
         g.drawString("Robot y = " + y.toString(), 10, 50);
