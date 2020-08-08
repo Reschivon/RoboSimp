@@ -21,7 +21,6 @@ public class display{
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         frame.add(new JPanel() {
-
             public void paintComponent(Graphics g) {
                 g.drawString("Robot x = " + x, 10, 10);
                 g.drawString("Robot y = " + y, 10, 50);
@@ -29,7 +28,6 @@ public class display{
 
                 repaint();
             }
-
         });
     }
 }
