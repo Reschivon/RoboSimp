@@ -41,11 +41,11 @@ public class displayFooData {
 //                g.fillRect(x, y, 100, 30);
 //                g.drawImage(image, x, y, this);
                 // Rotate the image and then draw it
-                image = rotate(image, rotation);
+                image = rotateImageByDegrees(image, rotation);
                 g.drawImage(image,x,y,100,100,this);
 
                 repaint();
-//                revalidate();
+                revalidate();
             }
 
         });
@@ -65,18 +65,6 @@ public class displayFooData {
     }
 
     // Rotate image code
-    public static BufferedImage rotate(BufferedImage bimg, double angle) {
-
-        int w = bimg.getWidth();
-        int h = bimg.getHeight();
-
-        BufferedImage rotated = new BufferedImage(w, h, bimg.getType());
-        Graphics2D graphic = rotated.createGraphics();
-        graphic.rotate(Math.toRadians(angle), w/2, h/2);
-        graphic.drawImage(bimg, null, 0, 0);
-        graphic.dispose();
-        return rotated;
-    }
 
     // Initialize Getters
     public int getX(){
