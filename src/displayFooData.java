@@ -1,20 +1,19 @@
-//import java.awt.Graphics;
-//import javax.swing.JFrame;
-//import javax.swing.JPanel;
+//import javax.swing.*;
+//import java.awt.*;
 //
-//public class display{
+//public class displayFooData {
 //    // initialize class variables
 //    int x;
 //    int y;
 //    int rotation;
 //
-//    public void updateRobotGraphics() {
+//    public void updateRobotPose() {
 //        x = simulator.getX();
 //        y = simulator.getY();
 //        rotation = simulator.getRotation();
 //    }
 //
-//    public display() {
+//    public displayFooData() {
 //        JFrame frame = new JFrame("Robot Simulator");
 //        frame.setSize(300, 300);
 //        frame.setVisible(true);
