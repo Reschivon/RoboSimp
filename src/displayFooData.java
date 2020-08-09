@@ -8,11 +8,15 @@ public class displayFooData {
     int y;
     int rotation;
 
+    Scanner scan = new Scanner(System.in);
+
     public displayFooData() {
         JFrame frame = new JFrame("Robot Simulator");
         frame.setSize(300, 300);
         frame.setVisible(true);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        updateRobotPose();
 
         frame.add(new JPanel() {
             public void paintComponent(Graphics g) {
@@ -26,7 +30,6 @@ public class displayFooData {
     }
 
     public int getInput(String message){
-        Scanner scan = new Scanner(System.in);
         System.out.println("Set " + message + ":");
         String input = scan.next();
 
