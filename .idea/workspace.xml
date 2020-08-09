@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="22617a6e-5604-4b87-b74d-6282a50ce575" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/display.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/display.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RoboSimp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RoboSimp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/displayFooData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/displayFooData.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,7 +20,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/display.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="607">
+            <state relative-caret-position="662">
               <caret line="30" column="13" lean-forward="true" selection-start-column="2" selection-end-line="32" selection-end-column="3" />
             </state>
           </provider>
@@ -29,27 +29,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/displayFooData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="461">
+              <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#765#1069#0" expanded="true" />
-                <element signature="e#1068#1069#0" expanded="true" />
+                <element signature="e#483#935#0" expanded="true" />
+                <element signature="e#1129#1130#0" expanded="true" />
+                <element signature="e#1153#1154#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/RoboSimp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -66,8 +65,9 @@
         <option value="$PROJECT_DIR$/src/directionator.java" />
         <option value="$PROJECT_DIR$/src/motorControl.java" />
         <option value="$PROJECT_DIR$/src/simulator.java" />
-        <option value="$PROJECT_DIR$/src/RoboSimp.java" />
         <option value="$PROJECT_DIR$/src/display.java" />
+        <option value="$PROJECT_DIR$/src/RoboSimp.java" />
+        <option value="$PROJECT_DIR$/src/robotDisplayPanel.java" />
         <option value="$PROJECT_DIR$/src/displayFooData.java" />
       </list>
     </option>
@@ -75,7 +75,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="1440" />
     <option name="y" value="-517" />
-    <option name="width" value="1379" />
+    <option name="width" value="1838" />
     <option name="height" value="1337" />
   </component>
   <component name="ProjectId" id="1fneXSNJSQMVAhsSqU7KUX0d7d5" />
@@ -113,6 +113,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
@@ -180,14 +181,27 @@
       <option name="project" value="LOCAL" />
       <updated>1596943669982</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Blitting the String">
+      <created>1596944844161</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1596944844161</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Almost got repeat loop to work">
+      <created>1596945699417</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1596945699417</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="-517" width="1379" height="1337" extended-state="0" />
-    <editor active="true" />
+    <frame x="1440" y="-517" width="1838" height="1337" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3448276" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25510204" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -196,15 +210,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.497318" visible="true" weight="0.16112532" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48696145" visible="true" weight="0.16112532" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.6444087" weight="0.19266838" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.502682" side_tool="true" visible="true" weight="0.16112532" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5130386" side_tool="true" visible="true" weight="0.16112532" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.69118774" weight="0.2804774" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49042144" weight="0.32992327" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.47732428" weight="0.32992327" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -287,7 +301,9 @@
     <MESSAGE value="Updated Motor Control &#10;now using the bot's current position to decide which motors to turn (still does not have access to the destination coords)" />
     <MESSAGE value="Commented out everything to just get main RoboSimp.java running" />
     <MESSAGE value="Can input data now" />
-    <option name="LAST_COMMIT_MESSAGE" value="Can input data now" />
+    <MESSAGE value="Blitting the String" />
+    <MESSAGE value="Almost got repeat loop to work" />
+    <option name="LAST_COMMIT_MESSAGE" value="Almost got repeat loop to work" />
   </component>
   <component name="WindowStateProjectService">
     <state x="101" y="64" key="#com.intellij.execution.impl.EditConfigurationsDialog" />
@@ -334,28 +350,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RoboSimp.java">
+    <entry file="file://$PROJECT_DIR$/src/display.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        <state relative-caret-position="662">
+          <caret line="30" column="13" lean-forward="true" selection-start-column="2" selection-end-line="32" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/display.java">
+    <entry file="file://$PROJECT_DIR$/src/RoboSimp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
-          <caret line="30" column="13" lean-forward="true" selection-start-column="2" selection-end-line="32" selection-end-column="3" />
+        <state relative-caret-position="308">
+          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/robotDisplayPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/displayFooData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="461">
+          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#765#1069#0" expanded="true" />
-            <element signature="e#1068#1069#0" expanded="true" />
+            <element signature="e#483#935#0" expanded="true" />
+            <element signature="e#1129#1130#0" expanded="true" />
+            <element signature="e#1153#1154#0" expanded="true" />
           </folding>
         </state>
       </provider>

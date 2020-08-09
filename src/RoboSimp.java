@@ -5,13 +5,12 @@ public class RoboSimp{
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         displayFooData robotDisplay = new displayFooData();
-        System.out.println("Would you like to update Robot Pose? y/n");
-        String input = scan.next();
+        String input = "y";
 
-        while (input == "y"){
+        while (input.equals("y")){
+            robotDisplay.updateRobotPose();
             System.out.println("Would you like to update Robot Pose? y/n");
             input = scan.next();
-            robotDisplay.updateRobotPose();
         }
 
 

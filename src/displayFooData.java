@@ -16,14 +16,21 @@ public class displayFooData {
         frame.setVisible(true);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        updateRobotPose();
+        // Actual JPanel Graphics
+
 
         frame.add(new JPanel() {
             public void paintComponent(Graphics g) {
                 g.drawString("Robot x = " + x, 10, 20);
                 g.drawString("Robot y = " + y, 10, 60);
                 g.drawString("Robot rotation = " + rotation, 10, 100);
+
+                // blit image
+                g.setColor(Color.YELLOW);
+                g.fillRect(x, y, 100, 30);
+
                 repaint();
+                revalidate();
             }
 
         });
