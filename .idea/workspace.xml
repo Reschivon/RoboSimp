@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22617a6e-5604-4b87-b74d-6282a50ce575" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/FullSizeRender.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RoboSimp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RoboSimp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/displayFooData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/displayFooData.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,13 +29,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/displayFooData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+            <state relative-caret-position="446">
+              <caret line="31" column="23" lean-forward="true" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#483#935#0" expanded="true" />
-                <element signature="e#1129#1130#0" expanded="true" />
-                <element signature="e#1153#1154#0" expanded="true" />
+                <element signature="e#934#935#0" expanded="true" />
+                <element signature="e#1308#1309#0" expanded="true" />
+                <element signature="e#1332#1333#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -120,6 +121,9 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -195,11 +199,19 @@
       <option name="project" value="LOCAL" />
       <updated>1596945699417</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Blit image with actual XY data updated livetime from terminal">
+      <created>1596957937199</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1596957937201</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-517" width="1838" height="1337" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25510204" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -210,15 +222,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48696145" visible="true" weight="0.16112532" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48526078" visible="true" weight="0.16112532" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.6444087" weight="0.19266838" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5130386" side_tool="true" visible="true" weight="0.16112532" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5147392" side_tool="true" visible="true" weight="0.16112532" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.69118774" weight="0.2804774" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.47732428" weight="0.32992327" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.47562358" weight="0.32992327" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -303,7 +315,8 @@
     <MESSAGE value="Can input data now" />
     <MESSAGE value="Blitting the String" />
     <MESSAGE value="Almost got repeat loop to work" />
-    <option name="LAST_COMMIT_MESSAGE" value="Almost got repeat loop to work" />
+    <MESSAGE value="Blit image with actual XY data updated livetime from terminal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Blit image with actual XY data updated livetime from terminal" />
   </component>
   <component name="WindowStateProjectService">
     <state x="101" y="64" key="#com.intellij.execution.impl.EditConfigurationsDialog" />
@@ -373,13 +386,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/displayFooData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        <state relative-caret-position="446">
+          <caret line="31" column="23" lean-forward="true" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#483#935#0" expanded="true" />
-            <element signature="e#1129#1130#0" expanded="true" />
-            <element signature="e#1153#1154#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
+            <element signature="e#1308#1309#0" expanded="true" />
+            <element signature="e#1332#1333#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,5 +1,9 @@
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class displayFooData {
@@ -9,15 +13,19 @@ public class displayFooData {
     int rotation;
 
     Scanner scan = new Scanner(System.in);
+    private BufferedImage image;
 
     public displayFooData() {
         JFrame frame = new JFrame("Robot Simulator");
-        frame.setSize(300, 300);
+        frame.setSize(800, 800);
         frame.setVisible(true);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        // Actual JPanel Graphics
-
+        try {
+            image = ImageIO.read(new File("/Users/JustKyle-ngaround/Desktop/ud282-master/RoboSimp/src/FullSizeRender.jpeg"));
+        } catch (IOException e){
+            System.out.println(e);
+        }
 
         frame.add(new JPanel() {
             public void paintComponent(Graphics g) {
@@ -27,8 +35,8 @@ public class displayFooData {
 
                 // blit image
                 g.setColor(Color.YELLOW);
-                g.fillRect(x, y, 100, 30);
-
+//                g.fillRect(x, y, 100, 30);
+                g.drawImage(image, x, y, this);
                 repaint();
                 revalidate();
             }
