@@ -12,6 +12,7 @@ public class displayFooData {
     int x;
     int y;
     int rotation;
+    Graphics2D g2d;
 
     Scanner scan = new Scanner(System.in);
     BufferedImage image;
@@ -45,7 +46,7 @@ public class displayFooData {
 
         frame.add(new JPanel() {
               public void paintComponent(Graphics g) {
-                  Graphics2D g2d = (Graphics2D)g;
+                  g2d = (Graphics2D)g;
                   AffineTransform nonRotated = g2d.getTransform();
                   g2d.drawString("Robot x = " + x, 10, 20);
                   g2d.drawString("Robot y = " + y, 10, 60);

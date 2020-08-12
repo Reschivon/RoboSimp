@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22617a6e-5604-4b87-b74d-6282a50ce575" name="Default Changelist" comment="reverted back to rotating endlessly version">
+    <list default="true" id="22617a6e-5604-4b87-b74d-6282a50ce575" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FullSizeRender.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/RobotImage.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/displayFooData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/displayFooData.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,14 +37,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/displayFooData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="39" column="39" lean-forward="true" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+            <state relative-caret-position="474">
+              <caret line="41" column="35" lean-forward="true" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1226#1858#0" expanded="true" />
                 <element signature="e#1857#1858#0" expanded="true" />
-                <element signature="e#1900#1901#0" expanded="true" />
-                <element signature="e#1924#1925#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -249,14 +246,28 @@
       <option name="project" value="LOCAL" />
       <updated>1596962598089</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Took away repaint, instead calling the paintComponent function many times in the RoboSimp.java while loop.">
+      <created>1597257042815</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1597257042817</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Works only on first rotation. But at least it works!">
+      <created>1597258239334</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1597258239339</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="2431" y="-517" width="1569" height="1336" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1826087" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1826087" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -265,15 +276,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49832776" weight="0.32935154" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.47692308" weight="0.15273038" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.470903" visible="true" weight="0.15273038" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.64214045" weight="0.08020478" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50167227" side_tool="true" visible="true" weight="0.15273038" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.52909696" side_tool="true" visible="true" weight="0.15273038" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.6899886" weight="0.2804774" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.46086955" weight="0.32935154" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4548495" weight="0.32935154" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -363,7 +374,9 @@
     <MESSAGE value="XY translation works but rotation is being constantly updated so spins." />
     <MESSAGE value="Tried to make the image stop spinning, need to revert to old version" />
     <MESSAGE value="reverted back to rotating endlessly version" />
-    <option name="LAST_COMMIT_MESSAGE" value="reverted back to rotating endlessly version" />
+    <MESSAGE value="Took away repaint, instead calling the paintComponent function many times in the RoboSimp.java while loop." />
+    <MESSAGE value="Works only on first rotation. But at least it works!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Works only on first rotation. But at least it works!" />
   </component>
   <component name="WindowStateProjectService">
     <state x="101" y="64" key="#com.intellij.execution.impl.EditConfigurationsDialog" />
@@ -434,14 +447,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/displayFooData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="39" column="39" lean-forward="true" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+        <state relative-caret-position="474">
+          <caret line="41" column="35" lean-forward="true" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1226#1858#0" expanded="true" />
             <element signature="e#1857#1858#0" expanded="true" />
-            <element signature="e#1900#1901#0" expanded="true" />
-            <element signature="e#1924#1925#0" expanded="true" />
           </folding>
         </state>
       </provider>
