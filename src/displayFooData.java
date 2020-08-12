@@ -3,7 +3,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.geom.AffineTransform;
 import java.awt.image.BufferedImage;
-import java.awt.image.ImageObserver;
 import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
@@ -46,10 +45,18 @@ public class displayFooData {
 
         frame.add(new JPanel() {
               public void paintComponent(Graphics g) {
-                  g.drawString("Robot x = " + x, 10, 20);
-                  g.drawString("Robot y = " + y, 10, 60);
-                  g.drawString("Robot rotation = " + rotation, 10, 100);
-                  g.drawImage(image,x,y,100,100,this);
+                  Graphics2D g2d = (Graphics2D)g;
+                  AffineTransform nonRotated = g2d.getTransform();
+                  g2d.drawString("Robot x = " + x, 10, 20);
+                  g2d.drawString("Robot y = " + y, 10, 60);
+                  g2d.drawString("Robot rotation = " + rotation, 10, 100);
+
+                  g2d.rotate(Math.toRadians(rotation));
+                  g2d.drawImage(image, x, y,100,100,this);
+
+
+                  //reset image to original nonRotated form
+                  g2d.setTransform(nonRotated);
               }
             });
         }
