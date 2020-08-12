@@ -12,11 +12,12 @@ public class displayFooData {
     int x;
     int y;
     int rotation;
-    Graphics2D g2d;
+
 
     Scanner scan = new Scanner(System.in);
     BufferedImage image;
     JFrame frame;
+    displayJPanel display;
 
     public displayFooData() {
         frame = new JFrame("Robot Simulator");
@@ -30,6 +31,8 @@ public class displayFooData {
         } catch (IOException e){
             System.out.println(e);
         }
+
+        display = new displayJPanel(x, y, rotation, image);
     }
 
     public int getInput(String message){
@@ -44,21 +47,6 @@ public class displayFooData {
         y = getInput("Y");
         rotation = getInput("Rotation");
 
-        frame.add(new JPanel() {
-              public void paintComponent(Graphics g) {
-                  g2d = (Graphics2D)g;
-                  AffineTransform nonRotated = g2d.getTransform();
-                  g2d.drawString("Robot x = " + x, 10, 20);
-                  g2d.drawString("Robot y = " + y, 10, 60);
-                  g2d.drawString("Robot rotation = " + rotation, 10, 100);
-
-                  g2d.rotate(Math.toRadians(rotation));
-                  g2d.drawImage(image, x, y,100,100,this);
-
-
-                  //reset image to original nonRotated form
-                  g2d.setTransform(nonRotated);
-              }
-            });
+        frame.add(display);
         }
 }
