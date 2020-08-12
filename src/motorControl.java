@@ -8,8 +8,8 @@ public class motorControl{
 	public static int leftMotorDegrees(){
 		int direction = directionator.goForwardsOrBackwards();
 		int desired_rot = directionator.getAngleRotation();
-		int x_dist = abs(simulator.getX() - newX);
-		int y_dist = abs(simulator.getY() - newY);
+		int x_dist = Math.abs(simulator.getX() - newX);
+		int y_dist = Math.abs(simulator.getY() - newY);
 
 		if(Math.abs(rotated) < Math.abs(desired_rot)) {
 			int rot_direction = -desired_rot / Math.abs(desired_rot);
