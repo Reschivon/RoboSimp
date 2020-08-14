@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22617a6e-5604-4b87-b74d-6282a50ce575" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/displayJPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RoboSimp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RoboSimp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/displayFooData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/displayFooData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/displayJPanel.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/RoboSimp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="279">
+              <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -38,22 +39,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/displayFooData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="968">
+              <caret line="49" column="15" lean-forward="true" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/displayJPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1166#1792#0" expanded="true" />
+                <element signature="e#1791#1792#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,9 +76,9 @@
         <option value="$PROJECT_DIR$/src/simulator.java" />
         <option value="$PROJECT_DIR$/src/display.java" />
         <option value="$PROJECT_DIR$/src/robotDisplayPanel.java" />
-        <option value="$PROJECT_DIR$/src/RoboSimp.java" />
         <option value="$PROJECT_DIR$/src/displayJPanel.java" />
         <option value="$PROJECT_DIR$/src/displayFooData.java" />
+        <option value="$PROJECT_DIR$/src/RoboSimp.java" />
       </list>
     </option>
   </component>
@@ -279,13 +270,20 @@
       <option name="project" value="LOCAL" />
       <updated>1597258524307</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Tried to fix the problems but could not.">
+      <created>1597259926974</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1597259926975</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="2431" y="-517" width="1569" height="1336" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1826087" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18662207" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -299,9 +297,9 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.64214045" weight="0.08020478" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.64214045" weight="0.3139932" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5464883" side_tool="true" weight="0.32935154" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.6899886" weight="0.2804774" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.6899886" weight="0.27986348" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.45351171" weight="0.32935154" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -395,7 +393,8 @@
     <MESSAGE value="Took away repaint, instead calling the paintComponent function many times in the RoboSimp.java while loop." />
     <MESSAGE value="Works only on first rotation. But at least it works!" />
     <MESSAGE value="Made g2d a class object instead of creating a new one each time(less wasteful)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made g2d a class object instead of creating a new one each time(less wasteful)" />
+    <MESSAGE value="Tried to fix the problems but could not." />
+    <option name="LAST_COMMIT_MESSAGE" value="Tried to fix the problems but could not." />
   </component>
   <component name="WindowStateProjectService">
     <state x="101" y="64" key="#com.intellij.execution.impl.EditConfigurationsDialog" />
@@ -450,6 +449,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/displayJPanel.java" />
     <entry file="file://$PROJECT_DIR$/src/display.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -457,30 +457,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RoboSimp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/displayFooData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="968">
+          <caret line="49" column="15" lean-forward="true" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1166#1792#0" expanded="true" />
+            <element signature="e#1791#1792#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/displayJPanel.java">
+    <entry file="file://$PROJECT_DIR$/src/RoboSimp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="279">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
         </state>
       </provider>
     </entry>

@@ -9,17 +9,16 @@ import java.util.Scanner;
 
 public class displayFooData {
     // initialize class variables
-    int x;
-    int y;
-    int rotation;
+    static int x;
+    static int y;
+    static int rotation;
+    static Graphics2D g2d;
 
+    static Scanner scan = new Scanner(System.in);
+    static BufferedImage image;
+    static JFrame frame = null;
 
-    Scanner scan = new Scanner(System.in);
-    BufferedImage image;
-    JFrame frame;
-    displayJPanel display;
-
-    public displayFooData() {
+    public static void makeScreen() {
         frame = new JFrame("Robot Simulator");
         frame.setSize(800, 800);
         frame.setVisible(true);
@@ -31,22 +30,43 @@ public class displayFooData {
         } catch (IOException e){
             System.out.println(e);
         }
-
-        display = new displayJPanel(x, y, rotation, image);
     }
 
-    public int getInput(String message){
+    public static int getInput(String message){
         System.out.println("Set " + message + ":");
         String input = scan.next();
 
         return Integer.parseInt(input);
     }
 
-    public void updateRobotPose() {
+    public static void displayNewRobotPose() {
         x = getInput("X");
         y = getInput("Y");
         rotation = getInput("Rotation");
 
-        frame.add(display);
+        if (frame == null){
+            makeScreen();
+        }
+        frame.add(new JPanel() {
+              public void paintComponent(Graphics g) {
+                  frame.setVisible(true);
+                  g2d = (Graphics2D)g;
+                  AffineTransform nonRotated = g2d.getTransform();
+//                  AffineTransform rotateAT = AffineTransform.getRotateInstance(Math.PI/rotation,300.0,300.0);
+                  g2d.drawString("Robot x = " + x, 10, 20);
+                  g2d.drawString("Robot y = " + y, 10, 60);
+                  g2d.drawString("Robot rotation = " + rotation, 10, 100);
+
+                  g2d.rotate(Math.toRadians(rotation));
+//                  g2d.transform(rotateAT);
+                  g2d.drawImage(image, x, y,100,100,this);
+
+
+                  //reset image to original nonRotated form
+                  g2d.setTransform(nonRotated);
+                  repaint();
+//                  revalidate();
+              }
+            });
         }
 }
