@@ -9,13 +9,26 @@ class directionator{
     
     // for going forward or backward
     static double goForwardsOrBackwards(){
-        int goForward = 1;
-        int goBackwards = -1;
-        int noMovement = 0;
+       if directionAsker.x < simulator.x{
+           //turn & goForward
+       }
     }
     
     // getting the angle to rotate from the simulator
     static double getAngleRotation(){
         return 0;
+    }
+
+    static double goForwardsOrBackwards(){
+        // turn first and then go forward
+        // else if turn first and then go backwards if directionAsker x > simulator.x
+        // else just stay in position(no Movement)
+        // get the angle rotation from the simulator and use it in the movement of the robot
+
+
+        // turn using arctan to turn towards dest, and then move forward
+        // getAngleRotation = atan((sim.y-dest.y)/(sim.x-dest.x))
+
+        // 
     }
 }
