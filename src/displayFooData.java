@@ -47,9 +47,10 @@ public class displayFooData {
         if (frame == null){
             makeScreen();
         }
+
         frame.add(new JPanel() {
               public void paintComponent(Graphics g) {
-                  frame.setVisible(true);
+//                  setSize(100, 100);
                   g2d = (Graphics2D)g;
                   AffineTransform nonRotated = g2d.getTransform();
 //                  AffineTransform rotateAT = AffineTransform.getRotateInstance(Math.PI/rotation,300.0,300.0);
@@ -57,8 +58,9 @@ public class displayFooData {
                   g2d.drawString("Robot y = " + y, 10, 60);
                   g2d.drawString("Robot rotation = " + rotation, 10, 100);
 
-                  g2d.rotate(Math.toRadians(rotation));
+                  g2d.rotate(Math.toRadians(rotation), 50, 50);
 //                  g2d.transform(rotateAT);
+//                  image = rotate(image, rotation);
                   g2d.drawImage(image, x, y,100,100,this);
 
 
@@ -68,5 +70,20 @@ public class displayFooData {
 //                  revalidate();
               }
             });
-        }
+
+     }
+    // Rotate image code
+    public static BufferedImage rotate(BufferedImage bimg, double angle) {
+
+        int w = bimg.getWidth();
+        int h = bimg.getHeight();
+
+        BufferedImage rotated = new BufferedImage(w, h, bimg.getType());
+        Graphics2D graphic = rotated.createGraphics();
+        graphic.rotate(Math.toRadians(angle), w/2, h/2);
+        graphic.drawImage(bimg, null, 0, 0);
+        graphic.dispose();
+        return rotated;
+    }
 }
+

@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RoboSimp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RoboSimp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/displayFooData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/displayFooData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/displayJPanel.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,25 +26,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RoboSimp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+            <state relative-caret-position="420">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/displayFooData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="968">
-              <caret line="49" column="15" lean-forward="true" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1166#1792#0" expanded="true" />
-                <element signature="e#1791#1792#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="95">
+              <caret line="66" column="25" lean-forward="true" selection-start-line="66" selection-start-column="25" selection-end-line="66" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -77,16 +71,15 @@
         <option value="$PROJECT_DIR$/src/display.java" />
         <option value="$PROJECT_DIR$/src/robotDisplayPanel.java" />
         <option value="$PROJECT_DIR$/src/displayJPanel.java" />
-        <option value="$PROJECT_DIR$/src/displayFooData.java" />
         <option value="$PROJECT_DIR$/src/RoboSimp.java" />
+        <option value="$PROJECT_DIR$/src/displayFooData.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2431" />
-    <option name="y" value="-517" />
-    <option name="width" value="1569" />
-    <option name="height" value="1336" />
+    <option name="y" value="23" />
+    <option name="width" value="1233" />
+    <option name="height" value="816" />
   </component>
   <component name="ProjectId" id="1fneXSNJSQMVAhsSqU7KUX0d7d5" />
   <component name="ProjectLevelVcsManager">
@@ -97,8 +90,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -115,6 +106,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -277,13 +270,21 @@
       <option name="project" value="LOCAL" />
       <updated>1597259926975</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Increased Abstraction and cleaned up close sequence.">
+      <created>1597431516993</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1597431516993</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2431" y="-517" width="1569" height="1336" extended-state="0" />
+    <frame x="0" y="23" width="779" height="816" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18662207" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22695035" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -292,7 +293,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49832776" weight="0.32935154" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.47023413" visible="true" weight="0.15273038" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.47023413" weight="0.18558282" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -394,7 +395,8 @@
     <MESSAGE value="Works only on first rotation. But at least it works!" />
     <MESSAGE value="Made g2d a class object instead of creating a new one each time(less wasteful)" />
     <MESSAGE value="Tried to fix the problems but could not." />
-    <option name="LAST_COMMIT_MESSAGE" value="Tried to fix the problems but could not." />
+    <MESSAGE value="Increased Abstraction and cleaned up close sequence." />
+    <option name="LAST_COMMIT_MESSAGE" value="Increased Abstraction and cleaned up close sequence." />
   </component>
   <component name="WindowStateProjectService">
     <state x="101" y="64" key="#com.intellij.execution.impl.EditConfigurationsDialog" />
@@ -457,22 +459,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/displayFooData.java">
+    <entry file="file://$PROJECT_DIR$/src/RoboSimp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="968">
-          <caret line="49" column="15" lean-forward="true" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1166#1792#0" expanded="true" />
-            <element signature="e#1791#1792#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="420">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RoboSimp.java">
+    <entry file="file://$PROJECT_DIR$/src/displayFooData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+        <state relative-caret-position="95">
+          <caret line="66" column="25" lean-forward="true" selection-start-line="66" selection-start-column="25" selection-end-line="66" selection-end-column="25" />
         </state>
       </provider>
     </entry>
