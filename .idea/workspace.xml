@@ -21,23 +21,32 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/dev" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/directionasker" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5dc6bb11-b66a-43ca-9a76-aded16966723" name="Default Changelist" comment="Uptated Gitignore for Idea">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="5dc6bb11-b66a-43ca-9a76-aded16966723" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/directioninput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,8 +62,33 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
+  <component name="RunManager" selected="Application.directioninput">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RoboSimp" />
+      <module name="RoboSimp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="directioninput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="directioninput" />
+      <module name="RoboSimp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.directioninput" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -66,6 +100,14 @@
       <option name="presentableId" value="Default" />
       <updated>1596860631855</updated>
     </task>
+    <task id="LOCAL-00001" summary="Updated Gitignore">
+      <created>1597438710308</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597438710308</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -79,7 +121,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/dev" />
+                        <option value="origin/directionasker" />
                       </list>
                     </value>
                   </entry>
@@ -94,24 +136,48 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="config" />
-    <option name="LAST_COMMIT_MESSAGE" value="config" />
+    <MESSAGE value="Updated Gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Gitignore" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="208" y="31" key="#Project_Structure" timestamp="1597520526275">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="208" y="31" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1597520526275" />
+    <state x="184" y="112" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597439256652">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="112" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1597439256652" />
+    <state x="456" y="262" width="626" height="512" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1597439036867">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="456" y="262" width="626" height="512" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1597439036867" />
     <state x="147" y="122" key="FileChooserDialogImpl" timestamp="1596860874213">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="147" y="122" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596860874213" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1596861247730">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="260" y="62" key="SettingsEditor" timestamp="1597439232009">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="260" y="62" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1597439232009" />
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1596861247730" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1597439343268">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1597439343268" />
+    <state x="518" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597520489946">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="518" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1597520489946" />
+    <state x="518" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.803@0.23.1440.803" timestamp="1597519209806" />
     <state x="507" y="200" key="git4idea.merge.GitPullDialog" timestamp="1596860774686">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="507" y="200" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1596860774686" />
-    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup" timestamp="1596861212700">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="398" y="72" width="670" height="739" key="search.everywhere.popup" timestamp="1597438862823">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="398" y="72" width="670" height="739" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1597438862823" />
     <state x="425" y="66" width="672" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1596861212700" />
   </component>
 </project>
