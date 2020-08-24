@@ -1,5 +1,7 @@
+import static java.lang.Math.atan2;
+
 // for getting the destination from the destination asker
-class directionator{
+class Directionator{
     static int x;
     static int y;
     public static void setDestination(){
@@ -9,8 +11,8 @@ class directionator{
     
     // for going forward or backward
     static double goForwardsOrBackwards(){
-       RotationUtil.direction Rot = RotationUtil.turnLeftOrRight(simulator.getRotation(), atan2((simulator.y - y)/(simulator.x - x)));
-       if (Rot == none) {
+       RotationUtil.direction Rot = RotationUtil.turnLeftOrRight(simulator.getRotation(), atan2((simulator.y - y),(simulator.x - x)));
+       if (Rot == RotationUtil.direction.none) {
            return 1;
        }
        else {
@@ -20,28 +22,17 @@ class directionator{
     
     // getting the angle to rotate from the simulator
     static double getAngleRotation(){
-        if (Rot == left) {
+        RotationUtil.direction Rot = RotationUtil.turnLeftOrRight(simulator.getRotation(), atan2((simulator.y - y),(simulator.x - x)));
+        if (Rot == RotationUtil.direction.left) {
             return -1;
         } 
-        if (Rot == right) {
+        if (Rot == RotationUtil.direction.right) {
             return 1;
         }
-        if (Rot == none) {
+        if (Rot == RotationUtil.direction.none) {
             return 0;
         }
+        return 0;
     }
 
-    static double goForwards(){
-        RotationUtil.direction Rot = RotationUtil.turnLeftOrRight(simulator.getRotation(), atan2((simulator.y - y)/(simulator.x - x)));
-        
-        if (Rot == left){
-            // turn left
-        }
-        if (Rot == right){
-            // turn right
-        }
-        if (Rot == none) {
-            //goForward
-        }
-    }
 }
