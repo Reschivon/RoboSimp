@@ -1,8 +1,8 @@
 import java.lang.Math;
 
 public class simulator{
-    private static double x;
-    private static double y;
+    public static double x;
+    public static double y;
     private static double rot;
 
     public static int getX(){

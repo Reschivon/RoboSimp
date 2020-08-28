@@ -1,3 +1,5 @@
+import java.lang.Math;
+
 public class RotationUtil {
     public static void main(String[] args) {
         assert (turnLeftOrRight(0, 90) == direction.left);
@@ -21,7 +23,7 @@ public class RotationUtil {
      * @param destAngle  Desired angle of target
      * @return direction enum
      */
-    static direction turnLeftOrRight(int robotAngle, int destAngle){
+    static direction turnLeftOrRight(double robotAngle, double destAngle){
         if (robotAngle > 180){
             robotAngle = robotAngle % 360;
             if (robotAngle > 180) robotAngle -= 180;
@@ -39,8 +41,8 @@ public class RotationUtil {
      * @param destAngle  Desired angle of target
      * @return direction enum
      */
-    static direction turnLeftOrRight180(int robotAngle, int destAngle){
-        if (robotAngle == destAngle) return direction.none;
+    static direction turnLeftOrRight180(double robotAngle, double destAngle){
+        if (Math.abs (robotAngle - destAngle) <= 10) return direction.none;
 
         if (Math.abs(robotAngle - destAngle) < 180) {
             if (robotAngle - destAngle > 0) return direction.right;
