@@ -52,7 +52,7 @@ public class RotationUtil {
             if (robotAngle - destAngle > 0) destAngle += 360;
             else                            robotAngle += 360;
 
-            return turnLeftOrRight(robotAngle, destAngle);
+            return turnLeftOrRight180(robotAngle, destAngle);
         }
     }
 }

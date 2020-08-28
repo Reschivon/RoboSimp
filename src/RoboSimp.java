@@ -1,21 +1,27 @@
-import java.util.Scanner;
-
 public class RoboSimp{
 
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        String input = "y";
+        DirectionAsker.getInput();
+        //set Destination forever
+        Directionator.getDestination();
 
-        while (input.equals("y")){
-            displayFooData.displayNewRobotPose();
-            System.out.println("Would you like to update Robot Pose? y/n");
-            input = scan.next();
+        Display.makeScreen();
+
+        //simulator gets motor movement from motorControl which asks directionator for directions
+        while (Math.abs(simulator.getX() - DirectionAsker.getX()) > 2 ||
+                Math.abs(simulator.getX() - DirectionAsker.getX()) > 2) {
+            MotorControl.update();
+            simulator.update();
+
+            try {
+                Thread.sleep(70);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
-        displayFooData.frame.setVisible(false); //hide screen when the answer is n
 
         System.out.println("We see you would not like to use this anymore and are very sad.");
         System.out.println("Thank you for using RoboSimp.");
-        System.exit(0);
     }
 
 

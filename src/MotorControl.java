@@ -1,12 +1,28 @@
-public class motorControl{
+public class MotorControl {
 
 	// under the assumption that negative angles are CCW and positive are CW 
 	static int wheel_circum = 10; //just some random values for now
 	static int bot_diameter = 20;
 
+	private static double leftMotorDegrees;
+	private static double rightMotorDegrees;
+
+	public static void update(){
+		double direction = Directionator.goForwardsOrBackwards();
+		double desired_rot = Directionator.getAngleRotation();
+
+		leftMotorDegrees = desired_rot + direction;
+		rightMotorDegrees = -desired_rot + direction;
+	}
 	public static double leftMotorDegrees(){
-		int direction = directionator.goForwardsOrBackwards();
-		int desired_rot = directionator.getAngleRotation();
+		return leftMotorDegrees;
+	}
+	public static double rightMotorDegrees(){
+		return rightMotorDegrees;
+	}
+	/*
+	public static double pleftMotorDegrees(){
+
 		int newX, newY;
 		int x_dist = Math.abs(simulator.getX() - newX);
 		int y_dist = Math.abs(simulator.getY() - newY);
@@ -33,9 +49,9 @@ public class motorControl{
 		}
 	}
 
-	public static double rightMotorDegrees(){
-		int direction = directionator.goForwardsOrBackwards();
-		int desired_rot = directionator.getAngleRotation();
+	public static double prightMotorDegrees(){
+		double direction = Directionator.goForwardsOrBackwards();
+		double desired_rot = Directionator.getAngleRotation();
 		int x_dist = Math.abs(simulator.getX() - newX);
 		int y_dist = Math.abs(simulator.getY() - newY);
 		int newX, newY;
@@ -61,5 +77,5 @@ public class motorControl{
 			return 0;
 		}
 	}
-
+*/
 }
