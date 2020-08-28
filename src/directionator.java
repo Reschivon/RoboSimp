@@ -34,5 +34,4 @@ class Directionator{
         }
         return 0;
     }
-
 }
