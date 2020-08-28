@@ -5,7 +5,7 @@ An exercise of Git and cooperation
 Link to doc of specifications [Here]
 https://docs.google.com/document/d/1VVhSrgWwDnfUjVF9tT6lh-mtl9sm6oMbe_J9YvOLEMw/edit
 
-###Proof that you can make anything sound good in the ENB
+## Proof that you can make anything sound good in the ENB
 
 We implement a pure pursuit based target following algorithm. We also implement wheel simulators and global state to provide an environment for the algoithm to be tested in.
 
