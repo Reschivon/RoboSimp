@@ -1,4 +1,3 @@
-// for getting the destination from the destination asker
 class directionator{
     static int x;
     static int y;
@@ -19,3 +18,4 @@ class directionator{
         return 0;
     }
 }
+
