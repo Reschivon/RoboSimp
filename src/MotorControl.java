@@ -11,8 +11,8 @@ public class MotorControl {
 		double direction = Directionator.goForwardsOrBackwards();
 		double desired_rot = Directionator.getAngleRotation();
 
-		leftMotorDegrees = desired_rot + direction;
-		rightMotorDegrees = -desired_rot + direction;
+		leftMotorDegrees = 4 * desired_rot + 4 * direction;
+		rightMotorDegrees = -4 * desired_rot + 4 * direction;
 	}
 	public static double leftMotorDegrees(){
 		return leftMotorDegrees;

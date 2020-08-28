@@ -8,7 +8,8 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class Display {
-
+    //width and height
+    static final int imageSize = 80;
     static BufferedImage image;
     static JFrame frame = null;
 
@@ -37,14 +38,16 @@ public class Display {
             double x = simulator.getX();
             double y = simulator.getY();
 
+                System.out.println("xy "+ x + " " + y);
+
             g2d.drawString("Robot x = " + x, 10, 20);
             g2d.drawString("Robot y = " + y, 10, 60);
             g2d.drawString("Robot rotation = " + rotation, 10, 100);
 
-            g2d.rotate(Math.toRadians(rotation), 50, 50);
+            g2d.rotate(Math.toRadians(rotation), x + imageSize/2, y + imageSize/2);
 //                  g2d.transform(rotateAT);
 //                  image = rotate(image, rotation);
-            g2d.drawImage(image, (int)x, (int)y,100,100,this);
+            g2d.drawImage(image, (int)x, (int)y,imageSize,imageSize,this);
 
             //reset image to original nonRotated form
             g2d.setTransform(nonRotated);
