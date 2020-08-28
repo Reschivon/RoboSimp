@@ -3,7 +3,6 @@ public class motorControl{
 	// under the assumption that negative angles are CCW and positive are CW 
 	static int wheel_circum = 10; //just some random values for now
 	static int bot_diameter = 20;
-	static int rotated = 0;
 
 	public static double leftMotorDegrees(){
 		int direction = directionator.goForwardsOrBackwards();
@@ -12,11 +11,10 @@ public class motorControl{
 		int x_dist = Math.abs(simulator.getX() - newX);
 		int y_dist = Math.abs(simulator.getY() - newY);
 		double dist = Math.sqrt(x_dist*x_dist + y_dist*y_dist);
-		double angle_dist = Math.abs(Math.abs(rotated) - Math.abs(desired_rot));
+		double angle_dist = Math.abs(Math.abs(simulator.getRotation()) - Math.abs(desired_rot));
 		int rot_direction = desired_rot / Math.abs(desired_rot);
 
 		if(angle_dist >= 10){
-			rotated += 10;
 			double distance_to_move = Math.PI * bot_diameter * (10.0 / 360);
 			return rot_direction * distance_to_move * 360 / wheel_circum;
 		}
@@ -31,7 +29,6 @@ public class motorControl{
 			return dist/wheel_circum * 360*direction;
 		}
 		else{
-			rotated = 0;
 			return 0;
 		}
 	}
@@ -41,12 +38,12 @@ public class motorControl{
 		int desired_rot = directionator.getAngleRotation();
 		int x_dist = Math.abs(simulator.getX() - newX);
 		int y_dist = Math.abs(simulator.getY() - newY);
+		int newX, newY;
 		double dist = Math.sqrt(x_dist*x_dist + y_dist*y_dist);
-		double angle_dist = Math.abs(Math.abs(rotated) - Math.abs(desired_rot));
+		double angle_dist = Math.abs(Math.abs(simulator.getRotation()) - Math.abs(desired_rot));
 		int rot_direction = -desired_rot / Math.abs(desired_rot);
 
 		if(angle_dist >= 10){
-			rotated += 10;
 			double distance_to_move = Math.PI * bot_diameter * (10.0 / 360);
 			return rot_direction * distance_to_move * 360 / wheel_circum;
 		}
@@ -61,7 +58,6 @@ public class motorControl{
 			return dist/wheel_circum * 360*direction;
 		}
 		else{
-			rotated = 0;
 			return 0;
 		}
 	}
