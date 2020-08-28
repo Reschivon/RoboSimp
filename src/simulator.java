@@ -32,8 +32,4 @@ public class simulator{
         y += yChange;
         rot += rotation;
     }
-
-    public static void main(String[] args) {
-        System.out.println("Hello World from VsCode");
-    }
 }
